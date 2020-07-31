@@ -100,7 +100,7 @@ export function HeaderLogo({ href, navigateToApp, ...observables }: Props) {
   return (
     <EuiHeaderLogo
       data-test-subj="logo"
-      iconType="logoElastic"
+      iconType={require('./forge_logo.png')}
       onClick={(e) => onClick(e, forceNavigation, navLinks, navigateToApp)}
       href={href}
       aria-label={i18n.translate('core.ui.chrome.headerGlobalNav.goHomePageIconAriaLabel', {

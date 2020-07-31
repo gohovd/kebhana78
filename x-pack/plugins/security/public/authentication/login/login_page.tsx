@@ -86,14 +86,14 @@ export class LoginPage extends Component<Props, State> {
         <header className="loginWelcome__header">
           <div className={contentHeaderClasses}>
             <EuiSpacer size="xxl" />
-            <span className="loginWelcome__logo">
-              <EuiIcon type="logoElastic" size="xxl" />
+            <span className="">
+              <img src={require('./forge_logo.png')} width="150" />
             </span>
             <EuiTitle size="m" className="loginWelcome__title">
               <h1>
                 <FormattedMessage
                   id="xpack.security.loginPage.welcomeTitle"
-                  defaultMessage="Welcome to Elastic"
+                  defaultMessage="Welcome to Honeywell Forge Analytics"
                 />
               </h1>
             </EuiTitle>
