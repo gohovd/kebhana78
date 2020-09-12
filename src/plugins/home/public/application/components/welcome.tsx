@@ -136,7 +136,7 @@ export class Welcome extends React.Component<Props> {
             <div className="homWelcome__content eui-textCenter">
               <EuiSpacer size="xl" />
               <span className="">
-                <img src={require('./forge_logo.png')} width="150" alt="ForgeLogo" />
+                <img src={require('./forge_logo.png')} width="150" style={{ paddingBottom: '30' + 'px' }} alt="ForgeLogo" />
               </span>
               <EuiTitle size="l" className="homWelcome__title">
                 <h1>
